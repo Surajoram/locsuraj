@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    int a[30];
+    char b[30] ,c[30] ,d[30];
+    
+    printf("enter your Name:\n");
+    gets(b);
+    printf("enter your Regd no:\n");
+    scanf("%d" ,&a);
+    printf("enter your Branch:\n");
+    gets(c);
+    printf ("enter your hobbies:\n");
+    gets(d);
+    return 0;
+}
